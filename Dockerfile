@@ -17,6 +17,8 @@ RUN wget -q https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-${JMET
 ENV JMETER_BIN="${JMETER_HOME}/bin"
 ENV PATH="$PATH:$JMETER_BIN"
 
+ENV TIMEZONE Asia/Kolkata
+
 COPY entrypoint.sh /entrypoint.sh
 COPY jmeter-plugin-install.sh /jmeter-plugin-install.sh
 COPY cleanup.sh /cleanup.sh
