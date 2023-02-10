@@ -5,7 +5,7 @@ LABEL Website="https://qainsights.com"
 LABEL Description="A Light-weight Apache JMeter Dockerfile based on Alpaquita"
 
 ENV JMETER_VERSION="5.5"
-ENV JMETER_CMD_RUNNER_VERSION="2.3"
+ENV JMETER_CMD_RUNNER_VERSION="2.0"
 ENV JMETER_PLUGIN_MANAGER_VERSION="1.8"
 ENV JMETER_HOME="/opt/apache/apache-jmeter-${JMETER_VERSION}"
 
